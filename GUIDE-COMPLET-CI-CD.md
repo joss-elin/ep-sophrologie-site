@@ -258,7 +258,7 @@ Lors du premier push, GitHub vous demandera de vous connecter.
 
 ## Étape 12 : Connecter GitHub à Netlify
 
-1. **Allez sur Netlify** : https://app.netlify.com
+1. **Allez sur Netlify** : https://app.ne tlify.com
 2. Cliquez sur **"Add new site" → "Import an existing project"**
 3. Cliquez sur **"GitHub"**
 4. **Autorisez Netlify** à accéder à vos repositories
