@@ -132,7 +132,40 @@ body {
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
 }
+/* Réseaux sociaux dans le header */
+.social-links-header {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
 
+.social-links-header a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: white;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.social-links-header a:hover {
+    background: var(--color-secondary);
+    color: var(--color-dark);
+    transform: translateY(-3px) scale(1.1);
+}
+
+.social-links-header svg {
+    width: 20px;
+    height: 20px;
+}
+.social-links-header svg {
+    color: var(--color-dark);
+    fill: var(--color-dark);
+}
 .hamburger {
     display: none;
     flex-direction: column;
@@ -1053,6 +1086,7 @@ footer {
     height: 20px;
 }
 
+
 /* Responsive pour mobile */
 @media (max-width: 640px) {
     .footer-social {
@@ -1061,6 +1095,9 @@ footer {
     }
     
     .social-links {
+        justify-content: center;
+    }
+    .social-links-header {
         justify-content: center;
     }
 }
