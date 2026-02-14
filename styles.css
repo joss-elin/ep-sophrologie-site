@@ -902,6 +902,10 @@ footer {
     color: var(--color-primary);
     font-weight: 600;
 }
+.event-detail {
+    color: var(--color-dark);
+    font-weight: 600;
+}
 
 /* Contact Form */
 .contact-form {
