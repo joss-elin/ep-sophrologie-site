@@ -3,48 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emeline Pollier - Sophrologue à Cernier</title>
-    <meta name="description" content="Emeline Pollier, sophrologue certifiée à Cernier, Neuchâtel. Sophrologie générale, éducative et sportive pour enfants, parents et sportifs.">
+    <title>Émeline Pollier - Sophrologue à Cernier et Neuchâtel</title>
+    <meta name="description" content="Sophrologie à Cernier et dans le canton de Neuchâtel : séances pour enfants, parents, sportifs et ateliers de sérénité avec Émeline Pollier.">
+    <meta name="keywords" content="sophrologie Cernier, sophrologue Neuchâtel, sophrologie enfants, sophrologie parents, sophrologie sportive, ateliers de sophrologie">
+    <meta name="author" content="Émeline Pollier">
     <meta name="robots" content="index,follow">
+    <meta name="geo.region" content="CH-NE">
+    <meta name="geo.placename" content="Cernier">
     <link rel="canonical" href="https://ep-sophrologie.ch/">
-    <meta property="og:title" content="Emeline Pollier - Sophrologue à Cernier">
-    <meta property="og:description" content="Emeline Pollier, sophrologue certifiée à Cernier, Neuchâtel. Sophrologie générale, éducative et sportive pour enfants, parents et sportifs.">
+    <meta property="og:title" content="Émeline Pollier - Sophrologue à Cernier et Neuchâtel">
+    <meta property="og:description" content="Sophrologie à Cernier et dans le canton de Neuchâtel : séances pour enfants, parents, sportifs et ateliers de sérénité avec Émeline Pollier.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ep-sophrologie.ch/">
     <meta property="og:image" content="https://ep-sophrologie.ch/logo.png">
+    <meta property="og:site_name" content="EP Sophrologie">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Emeline Pollier - Sophrologue à Cernier">
-    <meta name="twitter:description" content="Emeline Pollier, sophrologue certifiée à Cernier, Neuchâtel. Sophrologie générale, éducative et sportive pour enfants, parents et sportifs.">
+    <meta name="twitter:title" content="Émeline Pollier - Sophrologue à Cernier et Neuchâtel">
+    <meta name="twitter:description" content="Sophrologie à Cernier et dans le canton de Neuchâtel : séances pour enfants, parents, sportifs et ateliers de sérénité avec Émeline Pollier.">
     <meta name="twitter:image" content="https://ep-sophrologie.ch/logo.png">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Emeline Pollier Sophrologie",
-      "image": "https://ep-sophrologie.ch/logo.png",
-      "description": "Sophrologue certifiée proposant des accompagnements en sophrologie générale, éducative et sportive",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "impasse des merisiers 7",
-        "addressLocality": "Cernier",
-        "postalCode": "2053",
-        "addressRegion": "Neuchâtel",
-        "addressCountry": "CH"
-      },
-      "telephone": "+41791368379",
-      "email": "emeline@ep-sophrologie.ch",
-      "url": "https://ep-sophrologie.ch",
-      "areaServed": [
-        "Val de Ruz",
-        "Cernier",
-        "Neuchâtel",
-        "Switzerland"
-      ],
-      "sameAs": [
-        "https://www.facebook.com/people/Emeline-Pollier-Sophrologie/61558780642278/",
-        "https://www.instagram.com/emeline_pollier_sophrologie?igsh=MW9qczkwbGJ0eHZoNA%3D%3D"
-      ],
-      "priceRange": "$$"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://ep-sophrologie.ch/#organization",
+          "name": "Emeline Pollier Sophrologie",
+          "url": "https://ep-sophrologie.ch",
+          "telephone": "+41791368379",
+          "email": "emeline@ep-sophrologie.ch",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "impasse des merisiers 7",
+            "addressLocality": "Cernier",
+            "postalCode": "2053",
+            "addressRegion": "Neuchâtel",
+            "addressCountry": "CH"
+          },
+          "sameAs": [
+            "https://www.facebook.com/people/Emeline-Pollier-Sophrologie/61558780642278/",
+            "https://www.instagram.com/emeline_pollier_sophrologie?igsh=MW9qczkwbGJ0eHZoNA%3D%3D"
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ep-sophrologie.ch/#person",
+          "name": "Émeline Pollier",
+          "jobTitle": "Sophrologue certifiée",
+          "description": "Sophrologue certifiée proposant des séances et ateliers de sophrologie générale, éducative et sportive à Cernier et dans le canton de Neuchâtel.",
+          "url": "https://ep-sophrologie.ch",
+          "worksFor": {"@id": "https://ep-sophrologie.ch/#organization"},
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Cernier",
+            "addressRegion": "Neuchâtel",
+            "addressCountry": "CH"
+          }
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://ep-sophrologie.ch/#business",
+          "name": "Émeline Pollier Sophrologie",
+          "image": "https://ep-sophrologie.ch/logo.png",
+          "description": "Séances et ateliers de sophrologie à Cernier, Neuchâtel, pour enfants, parents, sportifs et adultes.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Impasse des Merisiers 7",
+            "addressLocality": "Cernier",
+            "postalCode": "2053",
+            "addressRegion": "Neuchâtel",
+            "addressCountry": "CH"
+          },
+          "telephone": "+41791368379",
+          "email": "emeline@ep-sophrologie.ch",
+          "url": "https://ep-sophrologie.ch",
+          "areaServed": [
+            "Val de Ruz",
+            "Cernier",
+            "Neuchâtel",
+            "Suisse"
+          ],
+          "sameAs": [
+            "https://www.facebook.com/people/Emeline-Pollier-Sophrologie/61558780642278/",
+            "https://www.instagram.com/emeline_pollier_sophrologie?igsh=MW9qczkwbGJ0eHZoNA%3D%3D"
+          ],
+          "priceRange": "$$",
+          "founder": {"@id": "https://ep-sophrologie.ch/#person"}
+        }
+      ]
     }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,7 +140,7 @@
         <div class="hero-background"></div>
         <div class="hero-content">
             <div class="hero-text">
-                <h1 class="hero-title">Emeline Pollier</h1>
+                <h1 class="hero-title">Émeline Pollier</h1>
                 <p class="hero-subtitle">Sophrologue certifiée en sophrologie générale, éducative et sportive</p>
                 <p class="hero-tagline">"Accompagner les enfants et les parents vers plus de sérénité au quotidien"</p>
                 <a href="contact.html" class="hero-button">Découvrir une séance</a>
@@ -109,7 +155,7 @@
         <div class="container">
             <div class="intro-content">
                 <div class="intro-photo">
-                    <img src="emeline-photo.png" alt="Emeline Pollier">
+                    <img src="emeline-photo.png" alt="Émeline Pollier">
                 </div>
                 <div class="intro-text">
                     <p>Je suis <strong>Émeline</strong>, sophrologue et maman de trois enfants, avec plus de 20 ans d'expérience auprès de l'enfance.</p>
@@ -234,7 +280,7 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <img src="logo.png" alt="EP Sophrologie">
-                    <p>Emeline Pollier<br>Sophrologue certifiée</p>
+                    <p>Émeline Pollier<br>Sophrologue certifiée</p>
                 </div>
                 <div class="footer-links">
                     <h4>Navigation</h4>
@@ -250,13 +296,13 @@
                 </div>
                 <div class="footer-contact">
                     <h4>Contact</h4>
-                    <p>impasse des merisiers 7<br>2053 Cernier</p>
+                    <p>Impasse des Merisiers 7<br>2053 Cernier<br>Neuchâtel, Suisse</p>
                     <p><a href="tel:+41791368379">+41 79 136 83 79</a></p>
                     <p><a href="mailto:emeline@ep-sophrologie.ch">emeline@ep-sophrologie.ch</a></p>
                 </div>
             </div>
             <div class="footer-social">
-                    <p>&copy; 2025 Emeline Pollier - Tous droits réservés</p>
+                    <p>&copy; 2025 Émeline Pollier - Tous droits réservés</p>
                     <div class="social-links">
                         <a href="https://www.facebook.com/people/Emeline-Pollier-Sophrologie/61558780642278/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                             <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
