@@ -779,6 +779,13 @@ footer {
     margin: 0 auto;
 }
 
+.page-header .workshop-location {
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--color-primary);
+}
+
 .content-section {
     padding: 4rem 0;
 }
